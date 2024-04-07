@@ -71,6 +71,7 @@ public interface Declaration {
      * @param o the object to be compared for equality with this Declaration
      * @return {@code true} if the specified object is equal to this Declaration
      */
+    @Override
     boolean equals(Object o);
 
     /**
@@ -78,6 +79,7 @@ public interface Declaration {
      *
      * @return the hash code value for this Declaration.
      */
+    @Override
     int hashCode();
 
     /**
